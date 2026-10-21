@@ -17,17 +17,17 @@
     letter-spacing: 0.02em;
 }
 
-.menu:hover,
-.menu:focus,
-.contact-info:hover,
-.contact-info:focus {
+.menu a:hover,
+.menu a:focus,
+.contact-info a:hover,
+.contact-info a:focus {
     color: #404bbf;
 }
 
 .contact-info li {
     font-weight: 400;
     font-size: 16px;
-
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
