@@ -1,4 +1,4 @@
-#logo {
+.logo {
   font-weight: 700;
     font-size: 18px;
     line-height: 1.33333;
@@ -6,7 +6,7 @@
     text-transform: uppercase;
 }
 
-.logo {
+.logo-first-part {
     color: #4D5AE5;
 }
 
@@ -17,11 +17,18 @@
     letter-spacing: 0.02em;
 }
 
+.menu:hover,
+.menu:focus,
+.contact-info:hover,
+.contact-info:focus {
+    color: #404bbf;
+}
+
 .contact-info li {
     font-weight: 400;
     font-size: 16px;
 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    font-style: normal;
 }
