@@ -1,12 +1,9 @@
 .hero {
-    padding: 188px 0;
-    width: 1440px;
-    height: 600px;
     color: white;
     background: #2e2f42;
 }
 
-.hero h1 {
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -14,7 +11,7 @@
     text-align: center;
 }
 
-.hero button {
+.hero .hero-bttn {
     background-color: #4d5ae5;
     color: #fff;
     font-weight: 500;
@@ -24,7 +21,7 @@
     cursor: pointer;
 }
 
-.hero button:hover, 
-.hero button:focus {
+.hero .hero-bttn:hover, 
+.hero .hero-bttn:focus {
     background-color: #404bbf;
 }
