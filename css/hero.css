@@ -1,4 +1,4 @@
-#hero {
+.hero {
     padding: 188px 0;
     width: 1440px;
     height: 600px;
@@ -6,7 +6,7 @@
     background: #2e2f42;
 }
 
-#hero h1 {
+.hero h1 {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -14,12 +14,17 @@
     text-align: center;
 }
 
-#hero button {
+.hero button {
     background-color: #4d5ae5;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    max-width: 169px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero button:hover, 
+.hero button:focus {
+    background-color: #404bbf;
 }
