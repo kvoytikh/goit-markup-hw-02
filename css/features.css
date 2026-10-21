@@ -1,4 +1,4 @@
-.features h3 {
+.features .features-topic {
     font-weight: 500;
     font-size: 20px;
 
@@ -6,7 +6,7 @@
     letter-spacing: 0.02em;
 }
 
-.features p {
+.features .features-topic-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
