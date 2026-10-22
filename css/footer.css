@@ -1,0 +1,30 @@
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo-first-part {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
